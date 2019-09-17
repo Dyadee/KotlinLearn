@@ -1,3 +1,5 @@
+import com.sun.xml.internal.fastinfoset.util.StringArray
+
 fun main(args: Array<String>){
 
 
@@ -22,4 +24,16 @@ fun main(args: Array<String>){
 
     println("The greater between $a and $b is ${max(a, b)}")
     println("The least between $a and $b is ${min(a, b)}")
+
+    //Learn Arrays Here
+
+    val myNumbers: IntArray = intArrayOf(2,3,43,21,54,5)
+    var myFloat: FloatArray = floatArrayOf(2.34F, 3.23F, 5.32F, 8.32F)
+    var myString: ArrayList<String> = arrayListOf<String>("derga", "nander", "faer")
+
+    for(i in myNumbers) print( "$i, ")
+    println()
+    for(j in myFloat) print("$j, ")
+    println()
+    for (k in myString) print("$k, ")
 }
